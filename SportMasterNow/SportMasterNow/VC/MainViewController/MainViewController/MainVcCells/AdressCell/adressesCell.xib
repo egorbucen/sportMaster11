@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="default" indentationWidth="10" rowHeight="134" id="KGk-i7-Jjw" customClass="adressesCell" customModule="SportMasterNow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="601" height="134"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="601" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I60-C1-ql2">
+                        <rect key="frame" x="5" y="15" width="150" height="104"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="hci-Ap-cbJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nf5-M6-O1c">
+                        <rect key="frame" x="446" y="15" width="150" height="104"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="D5u-3d-Y7X"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydS-wW-eee">
+                        <rect key="frame" x="201" y="56.5" width="199" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Minsk_metro " translatesAutoresizingMaskIntoConstraints="NO" id="Afa-SQ-zXe">
+                        <rect key="frame" x="156" y="47" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="WrL-0M-ueg"/>
+                            <constraint firstAttribute="height" constant="40" id="iWN-SU-4qI"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Nf5-M6-O1c" secondAttribute="trailing" constant="5" id="04E-tb-lcg"/>
+                    <constraint firstItem="Afa-SQ-zXe" firstAttribute="centerY" secondItem="ydS-wW-eee" secondAttribute="centerY" id="Hfi-Fb-HAq"/>
+                    <constraint firstItem="ydS-wW-eee" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Hvn-mv-gXj"/>
+                    <constraint firstItem="ydS-wW-eee" firstAttribute="leading" secondItem="Afa-SQ-zXe" secondAttribute="trailing" constant="5" id="ONb-pP-wM4"/>
+                    <constraint firstItem="ydS-wW-eee" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PUX-GF-MqX"/>
+                    <constraint firstItem="Nf5-M6-O1c" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="WFu-bd-Sh2"/>
+                    <constraint firstItem="I60-C1-ql2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="XTb-BD-wgL"/>
+                    <constraint firstAttribute="bottom" secondItem="I60-C1-ql2" secondAttribute="bottom" constant="15" id="bFz-TP-M4G"/>
+                    <constraint firstItem="Afa-SQ-zXe" firstAttribute="leading" secondItem="I60-C1-ql2" secondAttribute="trailing" constant="1" id="h4H-Ih-Zrz"/>
+                    <constraint firstItem="I60-C1-ql2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ueE-Fm-WI5"/>
+                    <constraint firstAttribute="bottom" secondItem="Nf5-M6-O1c" secondAttribute="bottom" constant="15" id="zDm-Bz-mNa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="adressLabel" destination="I60-C1-ql2" id="0Zv-hk-VAw"/>
+                <outlet property="marketLabel" destination="Nf5-M6-O1c" id="3rf-qp-Rhp"/>
+                <outlet property="metroLabel" destination="ydS-wW-eee" id="vpR-LG-w76"/>
+            </connections>
+            <point key="canvasLocation" x="289.13043478260875" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Minsk_metro " width="600" height="600"/>
+    </resources>
+</document>

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "devushka-bryunetka-sidya-na-polu-delaet-uprazhnenie-shpagat-rastyazhka-majka-shorty-krossovki-sportivnaya-figura.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

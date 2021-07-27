@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="800" id="KGk-i7-Jjw" customClass="BrandTableViewCell" customModule="SportMasterNow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Бренды" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdU-6F-jDV">
+                        <rect key="frame" x="40" y="21" width="320" height="30"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpo-Lf-tcT">
+                        <rect key="frame" x="40" y="81" width="320" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="   Бренды A - Z" image="square.grid.3x3" catalog="system">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="РЕКОМЕНДОВАНО ДЛЯ ВАС" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EtE-3l-bTu">
+                        <rect key="frame" x="40" y="153" width="320" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dx6-aW-VVe">
+                        <rect key="frame" x="40" y="191" width="320" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="320" id="4FT-54-fcb"/>
+                            <constraint firstAttribute="height" constant="80" id="5Si-6j-juQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <state key="normal" title="Nike">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUQ-sW-QL6">
+                        <rect key="frame" x="40" y="291" width="320" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="62t-gx-ToL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <color key="tintColor" red="0.76899542779999996" green="0.97992834520000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Outventure">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0f-UJ-vgk">
+                        <rect key="frame" x="40" y="391" width="320" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="60J-Lk-SQl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <state key="normal" title="Demix">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6M-CG-DDE">
+                        <rect key="frame" x="40" y="491" width="320" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="AyM-0a-XQv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <state key="normal" title="Termit">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mJd-i5-dol">
+                        <rect key="frame" x="40" y="591" width="320" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="bT5-I4-VvP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <state key="normal" title="Kappa">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="bUQ-sW-QL6" secondAttribute="trailing" constant="20" id="2zx-Ww-dVa"/>
+                    <constraint firstItem="G6M-CG-DDE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="3Hg-Xc-CC1"/>
+                    <constraint firstItem="Dx6-aW-VVe" firstAttribute="top" secondItem="EtE-3l-bTu" secondAttribute="bottom" constant="20" id="4BB-BN-aLx"/>
+                    <constraint firstItem="mJd-i5-dol" firstAttribute="top" secondItem="G6M-CG-DDE" secondAttribute="bottom" constant="20" id="5ZK-Ny-eyC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qdU-6F-jDV" secondAttribute="trailing" constant="20" id="6vv-TF-zCh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="mJd-i5-dol" secondAttribute="trailing" constant="20" id="8Qi-eS-rfX"/>
+                    <constraint firstItem="qdU-6F-jDV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="8RX-IY-WZG"/>
+                    <constraint firstItem="G6M-CG-DDE" firstAttribute="top" secondItem="y0f-UJ-vgk" secondAttribute="bottom" constant="20" id="DIX-Zd-bqN"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="mJd-i5-dol" secondAttribute="bottom" constant="118" id="Ic0-gG-bzS"/>
+                    <constraint firstItem="qdU-6F-jDV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="LIG-E8-OV5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="y0f-UJ-vgk" secondAttribute="trailing" constant="20" id="Ota-9m-Bs5"/>
+                    <constraint firstItem="EtE-3l-bTu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="TJp-OE-lBt"/>
+                    <constraint firstItem="EtE-3l-bTu" firstAttribute="top" secondItem="Qpo-Lf-tcT" secondAttribute="bottom" constant="50" id="Vj6-5w-fue"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Dx6-aW-VVe" secondAttribute="trailing" constant="20" id="VvC-st-gJn"/>
+                    <constraint firstItem="mJd-i5-dol" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="Wl0-P3-OEG"/>
+                    <constraint firstItem="Dx6-aW-VVe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="a6j-Wj-7vz"/>
+                    <constraint firstItem="y0f-UJ-vgk" firstAttribute="top" secondItem="bUQ-sW-QL6" secondAttribute="bottom" constant="20" id="eAE-SO-eMf"/>
+                    <constraint firstItem="y0f-UJ-vgk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="mbJ-ZK-EtO"/>
+                    <constraint firstItem="Qpo-Lf-tcT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="mne-aa-u6P"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="EtE-3l-bTu" secondAttribute="trailing" constant="20" id="nC0-xX-xa0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Qpo-Lf-tcT" secondAttribute="trailing" constant="20" id="olL-hn-a9u"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="G6M-CG-DDE" secondAttribute="trailing" constant="20" id="pTR-IL-ZBW"/>
+                    <constraint firstItem="Qpo-Lf-tcT" firstAttribute="top" secondItem="qdU-6F-jDV" secondAttribute="bottom" constant="30" id="rum-mK-CSM"/>
+                    <constraint firstItem="bUQ-sW-QL6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="tF7-F1-KHX"/>
+                    <constraint firstItem="bUQ-sW-QL6" firstAttribute="top" secondItem="Dx6-aW-VVe" secondAttribute="bottom" constant="20" id="wpC-zU-o5Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="demixButton" destination="y0f-UJ-vgk" id="16P-lZ-mTl"/>
+                <outlet property="kappaButton" destination="mJd-i5-dol" id="vTd-2E-WSP"/>
+                <outlet property="nikeButton" destination="Dx6-aW-VVe" id="AOF-rH-YIJ"/>
+                <outlet property="outventureButton" destination="bUQ-sW-QL6" id="wcG-7B-iiT"/>
+                <outlet property="termitButton" destination="G6M-CG-DDE" id="zmZ-Eb-xES"/>
+            </connections>
+            <point key="canvasLocation" x="171.01449275362319" y="190.17857142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="square.grid.3x3" catalog="system" width="128" height="112"/>
+    </resources>
+</document>
